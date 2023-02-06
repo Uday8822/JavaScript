@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <button onclick="multiplication()">*</button>
+     <button onclick="minus()">-</button>
+     <button onclick="plus()">+</button>
+     <button onclick="division()">/</button>
+     <button onclick="modulo()">%</button>
+    
+</html>
+
+<script>
+   
+    var a = window.prompt();
+    var b = window.prompt();
+
+    function multiplication()
+    {
+    multi = a*b;
+    document.write(multi);
+    }
+
+    function minus()
+    {
+    minus = a-b;
+    document.write(minus);
+    }
+
+    function division()
+    {
+    division = a/b;
+    document.write(division);
+    }
+
+    function plus()
+    {
+    plus = parseFloat(a) + parseFloat(b);
+    document.write(plus);
+    }
+
+    function modulo()
+    {
+    modulo = a%b;
+    document.write(modulo);
+    }
+  
+</script>
